@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Fondos y textos generales -->
+    <color name="fondo">#F8FAFC</color>
+    <color name="texto_principal">#1E293B</color>
+    <color name="texto_secundario">#64748B</color>
+    <color name="texto_etiqueta">#222222</color>
+    <color name="texto_autor">#C62828</color>
+    <color name="enlace">#4F46E5</color>
+
+    <!-- Campos de texto -->
+    <color name="texto_input">#1E293B</color>
+    <color name="hint_input">#64748B</color>
+
+    <!-- Iconos -->
+    <color name="icono_ok">#4F46E5</color>
+    <color name="icono_error">#DC2626</color>
+
+    <!-- Botones: fondo + texto (contraste) -->
+    <color name="btn_login_bg">#6200EE</color>
+    <color name="btn_login_texto">#FFFFFF</color>
+
+    <color name="btn_continuar_bg">#4F46E5</color>
+    <color name="btn_continuar_texto">#FFFFFF</color>
+
+    <color name="btn_reintentar_bg">#DC2626</color>
+    <color name="btn_reintentar_texto">#FFFFFF</color>
+
+    <color name="btn_navegador_bg">#1565C0</color>
+    <color name="btn_navegador_texto">#FFFFFF</color>
+
+    <color name="btn_telefono_bg">#2E7D32</color>
+    <color name="btn_telefono_texto">#FFFFFF</color>
+
+    <color name="btn_sms_bg">#F9A825</color>
+    <color name="btn_sms_texto">#212121</color>
+
+    <color name="btn_compartir_bg">#6A1B9A</color>
+    <color name="btn_compartir_texto">#FFFFFF</color>
+
+    <color name="btn_volver_bg">#455A64</color>
+    <color name="btn_volver_texto">#FFFFFF</color>
+
+    <color name="btn_cambiar_pass_bg">#2563EB</color>
+    <color name="btn_cambiar_pass_texto">#FFFFFF</color>
+</resources>

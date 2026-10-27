@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:contentDescription="Icono de error"
+        android:src="@drawable/ic_android"
+        app:tint="@color/icono_error" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="¡Error de autenticación, User!"
+        android:textColor="@color/texto_principal"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="El usuario o la contraseña son incorrectos. Por favor, verifica tus credenciales e inténtalo de nuevo."
+        android:textColor="@color/texto_secundario"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnReintentar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/btn_reintentar_bg"
+        android:text="Reintentar"
+        android:textColor="@color/btn_reintentar_texto"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvOlvido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:padding="8dp"
+        android:text="¿Olvidaste tu contraseña?"
+        android:textColor="@color/enlace"
+        android:textSize="14sp" />
+</LinearLayout>

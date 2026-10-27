@@ -6,9 +6,27 @@
     android:background="@color/fondo"
     android:orientation="vertical">
 
+    <!-- Header con botón Cerrar Sesión arriba a la derecha -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="12dp">
+
+        <Button
+            android:id="@+id/btnCerrarSesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btn_cerrar_sesion_bg"
+            android:text="@string/btn_cerrar_sesion"
+            android:textColor="@color/btn_cerrar_sesion_texto" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="24dp">

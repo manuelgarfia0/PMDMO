@@ -46,4 +46,7 @@
 
     <color name="btn_cambiar_pass_bg">#2563EB</color>
     <color name="btn_cambiar_pass_texto">#FFFFFF</color>
+
+    <color name="btn_cerrar_sesion_bg">#DC2626</color>
+    <color name="btn_cerrar_sesion_texto">#FFFFFF</color>
 </resources>

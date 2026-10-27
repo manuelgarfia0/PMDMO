@@ -74,6 +74,16 @@ class AccesosActivity : AppCompatActivity() {
         binding.btnVolver.setOnClickListener {
             finish()
         }
+
+        // Botón para cerrar sesión -> redirige a MainActivity (Login) y limpia el stack de actividades
+        binding.btnCerrarSesion.setOnClickListener {
+            Toast.makeText(this, getString(R.string.toast_sesion_cerrada), Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, MainActivity::class.java).apply {
+                flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            }
+            startActivity(intent)
+            finish()
+        }
     }
 
     /**

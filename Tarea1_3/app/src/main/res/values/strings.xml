@@ -44,6 +44,8 @@
     <string name="toast_pass_actual_incorrecta">La contraseña actual es incorrecta</string>
 
     <!-- Accesos -->
+    <string name="btn_cerrar_sesion">Cerrar Sesión</string>
+    <string name="toast_sesion_cerrada">Sesión cerrada</string>
     <string name="hint_accesos">Escribe un texto o un número</string>
     <string name="btn_navegador">Navegador</string>
     <string name="btn_telefono">Teléfono</string>

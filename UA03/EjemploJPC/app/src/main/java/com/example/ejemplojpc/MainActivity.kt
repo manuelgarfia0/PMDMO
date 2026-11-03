@@ -66,7 +66,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     val contexto = LocalContext.current
-    var texto by remember { mutableStateOf("Hola") }
+    var texto by remember { mutableStateOf("") }
     Column(modifier = modifier.padding(20.dp)) {
         Text(
             text = "Hello $name!",

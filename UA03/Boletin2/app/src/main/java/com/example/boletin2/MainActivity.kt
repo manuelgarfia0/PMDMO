@@ -76,6 +76,13 @@ class MainActivity : ComponentActivity() {
                         69 -> Exercise4_9Screen(onBack = { selectedExercise = null })
                         70 -> Exercise4_10Screen(onBack = { selectedExercise = null })
 
+                        // Boletín 5
+                        81 -> Exercise5_1Screen(onBack = { selectedExercise = null })
+                        82 -> Exercise5_2Screen(onBack = { selectedExercise = null })
+                        83 -> Exercise5_3Screen(onBack = { selectedExercise = null })
+                        84 -> Exercise5_4Screen(onBack = { selectedExercise = null })
+                        85 -> Exercise5_5Screen(onBack = { selectedExercise = null })
+
                         else -> MenuScreen(listState = listState, onSelectExercise = { id -> selectedExercise = id })
                     }
                 }

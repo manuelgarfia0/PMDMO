@@ -73,6 +73,14 @@ fun MenuScreen(
         ExerciseItem(70, "Ejercicio 4.10", "Animación de tema suave")
     )
 
+    val boletin5 = listOf(
+        ExerciseItem(81, "Ejercicio 5.1", "Contador con ViewModel y StateFlow"),
+        ExerciseItem(82, "Ejercicio 5.2", "Formulario con validación y UiState"),
+        ExerciseItem(83, "Ejercicio 5.3", "Navegación entre pantallas (NavHost)"),
+        ExerciseItem(84, "Ejercicio 5.4", "Scaffold, FAB y Snackbar con deshacer"),
+        ExerciseItem(85, "Ejercicio 5.5", "Cuenta atrás con LaunchedEffect")
+    )
+
     Scaffold(
         topBar = {
             TopAppBar(
@@ -140,6 +148,19 @@ fun MenuScreen(
                 )
             }
             items(boletin4) { exercise ->
+                ExerciseCard(exercise = exercise, onSelect = onSelectExercise)
+            }
+
+            item {
+                Spacer(modifier = Modifier.height(16.dp))
+                Text(
+                    text = "Boletín 5 — Arquitectura y Navegación",
+                    style = MaterialTheme.typography.titleLarge,
+                    color = MaterialTheme.colorScheme.primary,
+                    modifier = Modifier.padding(vertical = 8.dp)
+                )
+            }
+            items(boletin5) { exercise ->
                 ExerciseCard(exercise = exercise, onSelect = onSelectExercise)
             }
         }
